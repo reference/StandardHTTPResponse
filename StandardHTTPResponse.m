@@ -24,5 +24,9 @@
 #import "StandardHTTPResponse.h"
 
 @implementation StandardHTTPResponse
-
++ (nullable NSDictionary<NSString *, id> *)modelCustomPropertyMapper{
+    return @{@"code":@[@"code", @"errcode"],
+             @"msg":@[@"message", @"errmsg", @"msg"]
+             };
+}
 @end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "StandardHTTPResponse"
-  s.version      = "0.0.2"
+  s.version      = "0.0.5"
   s.summary      = "StandardHTTPResponse"
   s.homepage     = "https://github.com/reference/StandardHTTPResponse"
   s.description  = <<-DESC

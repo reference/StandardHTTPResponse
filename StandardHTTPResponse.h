@@ -27,4 +27,5 @@
 @property (nonatomic, assign) NSInteger code;
 @property (nonatomic, strong) id data;
 @property (nonatomic, strong) NSString *msg;
+@property (nonatomic, assign) BOOL success;
 @end
